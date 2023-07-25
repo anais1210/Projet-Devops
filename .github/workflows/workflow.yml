@@ -1,5 +1,9 @@
 name: Docker Hub
+<<<<<<< HEAD
 run-name: Build and Push App
+=======
+run-name: push app to docker hub
+>>>>>>> feature/index
 on:
   push:
     branches: main

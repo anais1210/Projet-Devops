@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# OpenSea-Indexer
+<<<<<<< HEAD
+Open Sea Indexer For Annual Project 4th years 2023
+
+
+Author : Anais.Z & Alexandre.H
+
+This is a dApp indexing NFT's data from Open Sea, it include graph with: 
+
+- top 10 NFTs with their amount of transactions by a choosen time (min/hour/day/week/month/year)
+- top users with high asset
+- top NFTs by their categories (art, gaming, photography...)
+- top NFTs and users by blockchain
+=======
+Open Sea Indexer For Annual Project 4th years
+>>>>>>> dev
+>>>>>>> feature/index
