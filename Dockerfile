@@ -1,14 +1,12 @@
-FROM node:16.17.1-alpine AS builder
+FROM node:16.17.1-alpine
 
-WORKDIR /app/front
+WORKDIR /app
 
-COPY package.json .
-COPY package-lock.json .
-
+COPY package.json package-lock.json /app/
 RUN npm install
 
-COPY . .
+COPY . /app/
 
-RUN npm run build
+EXPOSE 3000
 
 CMD ["npm", "start"]
